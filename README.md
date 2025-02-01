@@ -4,10 +4,10 @@ GitNOEncryptor is a command-line tool written in Python to facilitate uploading 
 
 ## ✨ Features
 
-- 💾 **Secure Upload** – Upload files and directories to a GitHub repository.
-- 🔗 **Direct Download** – Download specific files or entire repositories from GitHub.
+- 💾 **File Upload** – Upload files and directories to a GitHub repository.
+- 🔗 **Simple Download** – Download specific files or entire repositories from GitHub.
 - ⏳ **Time Measurement** – Displays the time taken for each operation.
-- 👾 **Simple and Efficient** – Easy-to-use command-line interface.
+- 👾 **CLI-Friendly and Efficient** – Easy-to-use command-line interface.
 
 ## ⚙️ Prerequisites
 
