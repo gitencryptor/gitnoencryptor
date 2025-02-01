@@ -13,11 +13,11 @@ GitNOEncryptor is a command-line tool written in Python to facilitate uploading 
 
 - Python 3.x: Make sure Python 3 is installed on your system before using GitNOEncryptor.
 
-## 🔧 Setup
+## 🔧 Configuration
 
 Before using GitNOEncryptor, you need to create a `config.json` file in the same directory as the tool. This file is required for authentication with GitHub.
 
-### Example of `config.json`
+### Example `config.json`
 ```json
 {
   "username": "your-username",
@@ -25,7 +25,7 @@ Before using GitNOEncryptor, you need to create a `config.json` file in the same
 }
 ```
 
-## 📚 Command-Line Options
+## 📜 Command Line Options
 
 | Argument                     | Description |
 |------------------------------|-------------|
