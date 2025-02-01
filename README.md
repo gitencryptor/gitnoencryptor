@@ -37,27 +37,27 @@ Before using GitNOEncryptor, you need to create a `config.json` file in the same
 | `--dest_dir`                 | Sets the local directory where downloaded files will be stored. |
 | `--time`                     | Measures execution time of operations in seconds. |
 
-## 🚀 Usage
+## 🛠 Usage
 
-### 1⃣ Upload a file
+### 1️⃣ Upload a file
 
 ```bash
 python3 gitnoencryptor.py --upload_file /path/to/file.txt --target_repo_url https://github.com/user/repository/
 ```
 
-### 2⃣ Download a file
+### 2️⃣ Download a file
 
 ```bash
 python3 gitnoencryptor.py --download_file_repo https://github.com/user/repository/blob/main/file.txt --dest_dir /destination/path/
 ```
 
-### 3⃣ Upload an entire directory
+### 3️⃣ Upload an entire directory
 
 ```bash
 python3 gitnoencryptor.py --upload_dir /path/to/directory/ --target_repo_url https://github.com/user/repository/
 ```
 
-### 4⃣ Download an entire repository
+### 4️⃣ Download an entire repository
 
 ```bash
 python3 gitnoencryptor.py --download_repo https://github.com/user/repository/ --dest_dir /destination/path/
