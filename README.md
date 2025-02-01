@@ -11,11 +11,11 @@ GitNOEncryptor is a command-line tool written in Python to facilitate uploading 
 
 ## ⚙️ Prerequisites
 
-- Python 3.x: Make sure Python 3 is installed on your system before using GitFileManager.
+- Python 3.x: Make sure Python 3 is installed on your system before using GitNOEncryptor.
 
 ## 🔧 Setup
 
-Before using GitFileManager, you need to create a `config.json` file in the same directory as the tool. This file is required for authentication with GitHub.
+Before using GitNOEncryptor, you need to create a `config.json` file in the same directory as the tool. This file is required for authentication with GitHub.
 
 ### Example of `config.json`
 ```json
@@ -42,29 +42,25 @@ Before using GitFileManager, you need to create a `config.json` file in the same
 ### 1⃣ Upload a file
 
 ```bash
-python3 gitfilemanager.py --upload_file /path/to/file.txt --target_repo_url https://github.com/user/repository/
+python3 gitnoencryptor.py --upload_file /path/to/file.txt --target_repo_url https://github.com/user/repository/
 ```
 
 ### 2⃣ Download a file
 
 ```bash
-python3 gitfilemanager.py --download_file_repo https://github.com/user/repository/blob/main/file.txt --dest_dir /destination/path/
+python3 gitnoencryptor.py --download_file_repo https://github.com/user/repository/blob/main/file.txt --dest_dir /destination/path/
 ```
 
 ### 3⃣ Upload an entire directory
 
 ```bash
-python3 gitfilemanager.py --upload_dir /path/to/directory/ --target_repo_url https://github.com/user/repository/
+python3 gitnoencryptor.py --upload_dir /path/to/directory/ --target_repo_url https://github.com/user/repository/
 ```
 
 ### 4⃣ Download an entire repository
 
 ```bash
-python3 gitfilemanager.py --download_repo https://github.com/user/repository/ --dest_dir /destination/path/
+python3 gitnoencryptor.py --download_repo https://github.com/user/repository/ --dest_dir /destination/path/
 ```
-
-## 🏰 Contribution
-
-Feel free to open issues and pull requests!
 
 📄 License: MIT
