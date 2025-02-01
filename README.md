@@ -27,15 +27,18 @@ GitNOEncryptor is a command-line tool written in Python to facilitate uploading 
 
 ## 📜 Command Line Options
 
-| Argument                     | Description |
-|------------------------------|-------------|
-| `--upload_file`              | Uploads a file to GitHub. |
-| `--upload_dir`               | Uploads an entire directory to GitHub. |
-| `--target_repo_url`          | Specifies the destination repository on GitHub. |
-| `--download_file_repo`       | Downloads a specific file from GitHub. |
-| `--download_repo`            | Downloads an entire repository from GitHub. |
-| `--dest_dir`                 | Sets the local directory where downloaded files will be stored. |
-| `--time`                     | Measures execution time of operations in seconds. |
+| Argument                  | Description                                                       |
+| ------------------------- | ----------------------------------------------------------------- |
+| `--upload_local_file`      | Uploads the specified file to GitHub.                             |
+| `--upload_local_batch_file`| Uploads a list of files to GitHub.                                |
+| `--upload_dir_file`        | Uploads all files from a specified directory to GitHub.           |
+| `--target_repo_url`        | Specifies the destination repository URL for uploads or downloads.|
+| `--download_url_file_repo` | Downloads a specific file from a GitHub URL.                      |
+| `--download_url_batch_file`| Downloads a list of files from GitHub using their URLs.           |
+| `--dest_dir`               | Sets the local directory where downloaded files will be stored.   |
+| `--time`                   | Measures execution time of operations.                            |
+
+
 
 ## 🛠 Usage
 
