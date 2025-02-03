@@ -79,7 +79,7 @@ python3 gitNOencryptor.py --download_url_batch_file https://github.com/user/repo
 ### 5️⃣ Upload an entire directory
 
 ```bash
-python3 gitNOencryptor.py --upload_dir_file /destination/path --target_repo_url https://github.com/user/repository/
+python3 gitNOencryptor.py --upload_dir_file /path/to/directory/ --target_repo_url https://github.com/user/repository/
 ```
 
 ### 6️⃣ Download an entire repository
