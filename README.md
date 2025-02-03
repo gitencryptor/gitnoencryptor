@@ -61,7 +61,7 @@ python3 gitNOencryptor.py --download_url_file_repo https://github.com/user/repos
 ### 3️⃣ Upload multiple files
 
 ```bash
-python3 gitNOencryptor.py --upload_local_batch_file /path/file.pdf /path/image.jpg /path/image.png --target_repo_url https://github.com/user/repository/
+python3 gitNOencryptor.py --upload_local_batch_file /path/to/file.pdf /path/to/image.jpg /path/to/image.png --target_repo_url https://github.com/user/repository/
 ```
 
 ### 4️⃣ Download multiple files
