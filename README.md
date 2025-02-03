@@ -43,49 +43,49 @@ GitNOEncryptor is a command-line tool written in Python to facilitate uploading 
 ### 1️⃣ Upload a file
 
 ```bash
-python3 gitencryptor.py --encrypt_file /path/to/file.pdf --target_repo_url https://github.com/user/repository/
+python3 gitNOencryptor.py --encrypt_file /path/to/file.pdf --target_repo_url https://github.com/user/repository/
 ```
 
 ### 2️⃣ Download a file
 
 ```bash
-python3 gitencryptor.py --decrypt_url_file_repo https://github.com/user/repository/blob/main/file.pdf --dest_dir /destination/path
+python3 gitNOencryptor.py --decrypt_url_file_repo https://github.com/user/repository/blob/main/file.pdf --dest_dir /destination/path
 ```
 
 If the file has a specific hash:
 
 ```bash
-python3 gitencryptor.py --decrypt_url_file_repo https://github.com/user/repository/blob/<hash>/file.pdf --dest_dir /destination/path
+python3 gitNOencryptor.py --decrypt_url_file_repo https://github.com/user/repository/blob/<hash>/file.pdf --dest_dir /destination/path
 ```
 
 ### 3️⃣ Upload multiple files
 
 ```bash
-python3 gitencryptor.py --encrypt_batch_file /path/file1.pdf /path/image.jpg /path/image.png --target_repo_url https://github.com/user/repository/
+python3 gitNOencryptor.py --encrypt_batch_file /path/file1.pdf /path/image.jpg /path/image.png --target_repo_url https://github.com/user/repository/
 ```
 
 ### 4️⃣ Download multiple files
 
 ```bash
-python3 gitencryptor.py --decrypt_url_batch_file https://github.com/user/repository/blob/main/file1.pdf https://github.com/user/repository/blob/main/image.jpg https://github.com/user/repository/blob/main/image.png --dest_dir /destination/path
+python3 gitNOencryptor.py --decrypt_url_batch_file https://github.com/user/repository/blob/main/file1.pdf https://github.com/user/repository/blob/main/image.jpg https://github.com/user/repository/blob/main/image.png --dest_dir /destination/path
 ```
 
 If the files have a specific hash:
 
 ```bash
-python3 gitencryptor.py --decrypt_url_batch_file https://github.com/user/repository/blob/<hash>/file1.pdf https://github.com/user/repository/blob/<hash>/image.jpg https://github.com/user/repository/blob/<hash>/image.png --dest_dir /destination/path
+python3 gitNOencryptor.py --decrypt_url_batch_file https://github.com/user/repository/blob/<hash>/file1.pdf https://github.com/user/repository/blob/<hash>/image.jpg https://github.com/user/repository/blob/<hash>/image.png --dest_dir /destination/path
 ```
 
 ### 5️⃣ Upload an entire directory
 
 ```bash
-python3 gitencryptor.py --encrypt_dir /path/to/directory/ --target_repo_url https://github.com/user/repository/
+python3 gitNOencryptor.py --encrypt_dir /path/to/directory/ --target_repo_url https://github.com/user/repository/
 ```
 
 ### 6️⃣ Download an entire repository
 
 ```bash
-python3 gitencryptor.py --decrypt_url_repo https://github.com/user/repository/ --dest_dir /destination/path/
+python3 gitNOencryptor.py --decrypt_url_repo https://github.com/user/repository/ --dest_dir /destination/path/
 ```
 
 📄 License: MIT
